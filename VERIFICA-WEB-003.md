@@ -21,4 +21,8 @@ Verifica locale del 20/11/2026. Nessuna pubblicazione.
 
 ## Limiti
 
-Preferenze emulate, non un cambio reale della lingua del sistema operativo. Nessun test su iPad/telefono fisici, lettore schermo o revisione linguistica professionale. La scelta delle opzioni del controllo rimane nativa del browser/sistema operativo. L’inglese completo si prova nell’anteprima locale; non è stato messo online.
+Preferenze emulate, non un cambio reale della lingua del sistema operativo. Nessun test su iPad/telefono fisici, lettore schermo o revisione linguistica professionale. Il selettore usa ora un pannello personalizzato; il controllo nativo è mantenuto come compatibilità senza JavaScript. L’inglese completo si prova nell’anteprima locale; non è stato messo online.
+
+## Selettore personalizzato
+
+Sostituito il menu nativo aperto con un pannello avorio/vino, nomi delle lingue, sigle e indicazione corrente. Provati nel browser: cambio English, salvataggio e BOOK lang=en; Home/freccia giù/Escape con ritorno focus; chiusura con clic esterno; pannello entro viewport mobile 390 px. Sintassi e test lingua nuovamente PASS. Nessun dispositivo fisico provato.
