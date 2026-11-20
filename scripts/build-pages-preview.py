@@ -16,7 +16,8 @@ HTML_FILES = (
 )
 STATIC_FILES = (
     "lingua.js", "lingua.css", "inglese.js", "prenotazione.js",
-    "carrello.js", "recensioni-google.js", "menu-dati.js",
+    "carrello.js", "wine-data.js", "wine-catalog.js", "wine-catalog.css",
+    "recensioni-google.js", "menu-dati.js",
     "menu-inglese.js", "menu-traduzioni.js", "seo-metadata.js",
 )
 ASSET = re.compile(r"(?<![A-Za-z0-9_])immagini/[A-Za-z0-9._/-]+\.(?:webp|png|jpe?g)", re.I)
