@@ -63,6 +63,7 @@ class PreviewTest(unittest.TestCase):
                 self.assertNotIn("application/ld+json", content)
                 self.assertNotIn(MODULE.PRODUCTION_BASE, content)
                 self.assertNotIn("www.matteodf3.github.io", content)
+                self.assertNotRegex(content, r'<(?:circle|ellipse|path)\b[^>]*santa-rita-website', "SVG self-closing elements must remain intact")
                 if name != "404.html":
                     for selector in (r'<link rel="canonical" href="([^"]+)"', r'<meta property="og:url" content="([^"]+)"', r'<meta property="og:image" content="([^"]+)"'):
                         value = re.search(selector, content).group(1)

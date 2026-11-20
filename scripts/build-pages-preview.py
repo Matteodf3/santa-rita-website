@@ -20,7 +20,7 @@ STATIC_FILES = (
     "menu-inglese.js", "menu-traduzioni.js", "seo-metadata.js",
 )
 ASSET = re.compile(r"(?<![A-Za-z0-9_])immagini/[A-Za-z0-9._/-]+\.(?:webp|png|jpe?g)", re.I)
-ROOT_PATH = re.compile(r"([\"'])(/(?!/))")
+ROOT_PATH = re.compile(r"(\b(?:href|src|action|poster)\s*=\s*)([\"'])(/(?!/))", re.I)
 ROBOTS_META = re.compile(r"(?is)<meta\b(?=[^>]*\bname=[\"']robots[\"'])[^>]*>")
 SCHEMA_SCRIPT = re.compile(r"(?is)<script\b(?=[^>]*\btype=[\"']application/ld\+json[\"'])[^>]*>.*?</script>")
 
@@ -41,7 +41,7 @@ def transform_html(source: str, base: str) -> str:
     source = ROBOTS_META.sub("", source)
     source = re.sub(r"(?i)<head\b[^>]*>", lambda m: m.group(0) + '\n<meta name="robots" content="noindex,nofollow">', source, count=1)
     source = source.replace(PRODUCTION_BASE, base.rstrip("/"))
-    source = ROOT_PATH.sub(lambda m: m.group(1) + "/santa-rita-website/", source)
+    source = ROOT_PATH.sub(lambda m: m.group(1) + m.group(2) + "/santa-rita-website/", source)
     return source
 
 
