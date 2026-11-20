@@ -16,7 +16,7 @@ Eghemon Passimento Don Vincenzo e Antica Masseria Colleone: nessuna scheda uffic
 
 ## Ricerca foto bottiglie (20/11/2026)
 
-Le pagine sotto mostrano o descrivono immagini utili per identificare le bottiglie. La disponibilità di una foto sul web **non** autorizza a copiarla, ottimizzarla, ospitarla sul sito o collegarla direttamente come immagine dello shop. Nelle fonti consultate non è stata trovata una licenza di riuso commerciale esplicita per le foto corrispondenti: nessuna foto è stata aggiunta al catalogo pubblico. Serve una foto scattata dal ristorante, oppure il permesso scritto del titolare dei diritti per l'uso sul sito.
+Le pagine sotto mostrano o descrivono immagini utili per identificare le bottiglie. Cinque foto scaricate da produttori o rivenditori sono state aggiunte **solo all’anteprima locale** su richiesta dell’utente. La disponibilità sul web non concede una licenza di riuso commerciale: i diritti sono da chiarire prima di pubblicarle in produzione. Fotografo/autore non indicato nelle pagine consultate; presumibilmente il produttore o il rivenditore detiene o gestisce i diritti, senza conferma. Le annate nei nomi dei file identificano la scheda del catalogo, non l’annata visibile nella fotografia.
 
 | Vino | Riscontro visivo e limite | Fonte candidata | Diritti foto |
 | --- | --- | --- | --- |
@@ -30,5 +30,18 @@ Le pagine sotto mostrano o descrivono immagini utili per identificare le bottigl
 | Casato di Melzi Salice Salentino Riserva 2014 | Materiale Biscardo dell'annata 2014 contiene una bottiglia illustrata | https://wijntransport-images.s3-eu-central-1.amazonaws.com/asia-wine-trophy-mabis5375.pdf | Riuso non autorizzato esplicitamente |
 | Eghemon Passimento Don Vincenzo 2024 | Scheda commerciale nomina la vendemmia 2024, senza licenza della foto | https://www.weindegu.com/product-page/eghemon-passimento | Identità della foto e riuso da chiarire |
 | Sartori Marani Bianco Veronese 2022 | Scheda commerciale per 2022; il venditore avverte che le immagini sono solo indicative | https://wineonlinedelivery.com/products/sartori-di-verona-bianco-veronese-marani-2022-750-ml | Annata della foto e riuso da chiarire |
+
+
+### Foto integrate nell’anteprima (20/11/2026)
+
+| Vino | File locale | Pagina e URL originale della foto | Abbinamento verificato | Autore e diritti |
+| --- | --- | --- | --- | --- |
+| Cantolio 14 di Terra | `immagini/vino-cantolio-di-terra.webp` | https://cantolio.it/prodotto/14-di-terra/ · https://cantolio.it/wp/wp-content/uploads/2017/05/14_TERRA_2022.jpg | Prodotto ed etichetta; annata non richiesta | Autore non indicato; permesso commerciale da ottenere dal produttore |
+| Trerose Salterio | `immagini/vino-trerose-salterio-2019.webp` | https://tenutatrerose.it/it/vini/salterio · https://tenutatreroseit.cdn-immedia.net/sites/default/files/styles/wine_cover/public/upload/wines/images/tenuta_trerose_linea_ontrade_salterio-novintage.png?itok=2w3zuJcS | Prodotto ed etichetta; immagine dichiarata senza annata, 2019 non visibile | Autore non indicato; permesso commerciale da ottenere dal produttore |
+| Franchini Sedese | `immagini/vino-franchini-sedese-2019.webp` | https://www.franchinivini.com/en/wines/ · https://www.franchinivini.com/wp-content/uploads/2022/03/Sedese-Nuova-Etichetta-2.png | Prodotto ed etichetta; 2019 non visibile | Autore non indicato; permesso commerciale da ottenere dal produttore |
+| Don Vincenzo Eghemon Passimiento | `immagini/vino-eghemon-passimento-don-vincenzo-2024.webp` | https://www.andronaco.de/don-vincenzo-eghemon-passimiento-71107 · https://www.andronaco.de/thumbnail/e9/53/52/1793104009/don-vincenzo-eghemon-passimiento-71107_586x800.webp?ts=1793104009 | Scheda rivenditore 2024 e foto del prodotto; annata non visibile | Autore non indicato; permesso commerciale da ottenere dal rivenditore/titolare |
+| Sartori Marani Bianco Veronese | `immagini/vino-sartori-marani-bianco-veronese-2022.webp` | https://sartoridiverona.it/vini/marani/ · https://sartoridiverona.it/wp-content/uploads/2024/09/marani-1.png | Prodotto ed etichetta; 2022 non visibile | Autore non indicato; permesso commerciale da ottenere dal produttore |
+
+I cinque file sono WebP locali, lato massimo 800 px, ciascuno sotto 21 KB. Le altre cinque schede mantengono il segnaposto: variante o foto/etichetta non sufficientemente attendibile nelle fonti già consultate. Nessuna foto è stata generata con AI.
 
 Regola vendita alcolici: https://www.sik.dk/erhverv/medicin-og-alderskontrol/alderskontrol/alderskontrol-salg-alkohol . In Danimarca vino oltre 6% riservato a 18+; ordine online di bevande con almeno 1,2% richiede un efficace sistema di verifica età prima del completamento dell'acquisto e segnaletica ufficiale visibile. L'attuale carrello locale non è tale sistema: acquisto vini disattivato.
