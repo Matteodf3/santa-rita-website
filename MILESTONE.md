@@ -6,12 +6,12 @@ Stato e prove devono distinguere: verificato, confermato dall’utente, da verif
 ## WEB-001 — copia, backup, cronologia e destinazione
 
 - Copia di sviluppo indipendente dalla cartella sul Desktop; backup ZIP iniziale conservato sul PC.
-- Repository GitHub privata: https://github.com/Matteodf3/santa-rita-website.
+- Repository GitHub pubblica dal 20/11/2026, con autorizzazione dell'utente: https://github.com/Matteodf3/santa-rita-website. L'anteprima GitHub Pages usa un branch separato `gh-pages` e non modifica la produzione one.com.
 - Nessun deploy automatico; cartella Desktop conservata.
 - Destinazione scelta per il sito pubblico: one.com, già utilizzato dall’utente. BOOK resta separato sulla propria VPS.
 - Dominio canonico confermato dall'utente: `https://trattoriasantarita.dk` senza `www`. Accesso al piano one.com e strumenti disponibili per pubblicazione, HTTPS e redirect restano da verificare prima del rilascio. L’eventuale servizio per ordini/pagamenti sarà deciso separatamente.
 
-**Fatto quando:** backup locale presente e verificato; copia indipendente, repository privata e primo commit disponibili; destinazione one.com registrata e capacità/configurazione dell’hosting verificate. Copia, backup, repository e dominio canonico sono verificati/confermati; capacità e configurazione dell'hosting restano da verificare.
+**Fatto quando:** backup locale presente e verificato; copia indipendente, repository GitHub e primo commit disponibili; destinazione one.com registrata e capacità/configurazione dell’hosting verificate. Copia, backup, repository e dominio canonico sono verificati/confermati; capacità e configurazione dell'hosting restano da verificare.
 
 ## WEB-002 — prenotazione e immagini
 

@@ -1,8 +1,10 @@
 # Santa Rita Website
 
-Sito pubblico in sviluppo: homepage, menu e shop. Questa repository privata conserva la cronologia della copia di lavoro. Il sito pubblico e il gestionale sono separati.
+Sito pubblico in sviluppo: homepage, menu e shop. Questa repository GitHub è pubblica dal 20/11/2026 e conserva la cronologia della copia di lavoro. Il sito pubblico di produzione e il gestionale BOOK sono separati.
 
 La prima revisione conserva il sito locale esistente senza modificarne il comportamento. Nessuna pubblicazione automatica configurata.
+
+L'anteprima GitHub Pages usa un pacchetto separato sul branch `gh-pages`; non sostituisce il sito di produzione su one.com. Build e aggiornamento manuale: [docs/PAGES-PREVIEW.md](docs/PAGES-PREVIEW.md).
 
 ## Avvio locale
 
