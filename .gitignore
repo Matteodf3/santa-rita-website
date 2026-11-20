@@ -1,0 +1,15 @@
+# Credenziali e configurazione privata
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+client_secret*.json
+service-account*.json
+# Dipendenze e file locali
+node_modules/
+.venv/
+__pycache__/
+.DS_Store
+Thumbs.db
+*.zip
