@@ -15,6 +15,8 @@ Stato e prove devono distinguere: verificato, confermato dall’utente, da verif
 
 ## WEB-002 — prenotazione e immagini
 
+Stato: implementata nella copia di sviluppo, da verificare su BOOK autenticato. Prove e limiti: [VERIFICA-WEB-002.md](VERIFICA-WEB-002.md).
+
 - Dominio BOOK corretto indicato dall’utente: `https://book.trattoriasantarita.dk`.
 - Destinazione prevista: `https://book.trattoriasantarita.dk/book?lang=da`, oppure `?lang=it` e `?lang=en`, secondo la lingua selezionata sul sito. Il supporto del parametro risulta dal codice secondo la segnalazione dell’utente; percorso e comportamento sono da provare nel browser. Non considerare la precedente destinazione .it verificata o confermata.
 - Collegare tutti i pulsanti di prenotazione, compresi navigazione, hero, contatti e pagine shop; rimuovere le vecchie finestre di prenotazione dimostrative.
