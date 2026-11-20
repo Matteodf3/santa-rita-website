@@ -21,7 +21,9 @@ function sync(){const language=valid(select.value),label=select.getAttribute('ar
 trigger.addEventListener('click',()=>panel.hidden?open():close(false));
 wrapper.addEventListener('keydown',event=>{if(event.key==='Escape'&&!panel.hidden){event.preventDefault();close(true)}else if(['ArrowDown','ArrowUp','Home','End'].includes(event.key)){event.preventDefault();const index=options.indexOf(document.activeElement);if(event.key==='Home')open(0);else if(event.key==='End')open(options.length-1);else if(panel.hidden)open();else open((index+(event.key==='ArrowDown'?1:-1)+options.length)%options.length)}});
 document.addEventListener('click',event=>{if(!wrapper.contains(event.target))close(false)});
-wrapper.addEventListener('focusout',event=>{if(!wrapper.contains(event.relatedTarget))close(false)});
+// Safari on iPhone may report a null relatedTarget while a tapped option is
+// receiving focus. Close only after focus actually reaches an outside element.
+document.addEventListener('focusin',event=>{if(!wrapper.contains(event.target))close(false)});
 select.addEventListener('change',sync);select.tabIndex=-1;select.setAttribute('aria-hidden','true');wrapper.append(trigger,panel);wrapper.classList.add('is-enhanced');select._srPicker={sync};sync();
 }
 function labels(){const language=document.documentElement.lang;
