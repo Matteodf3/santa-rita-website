@@ -1,0 +1,14 @@
+{
+  "name": "Trattoria Santa Rita",
+  "streetAddress": "Fugholm 12",
+  "postalCode": "8700",
+  "addressLocality": "Horsens",
+  "addressCountry": "DK",
+  "telephone": "+4550178022",
+  "email": "mail@trattoriasantarita.dk",
+  "openingHours": [
+    {"days": ["Tuesday", "Wednesday", "Thursday"], "opens": "16:00", "closes": "21:00"},
+    {"days": ["Friday"], "opens": "16:00", "closes": "22:00"},
+    {"days": ["Saturday"], "opens": "12:00", "closes": "22:00"}
+  ]
+}

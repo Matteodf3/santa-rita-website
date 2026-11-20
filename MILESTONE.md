@@ -9,9 +9,9 @@ Stato e prove devono distinguere: verificato, confermato dall’utente, da verif
 - Repository GitHub privata: https://github.com/Matteodf3/santa-rita-website.
 - Nessun deploy automatico; cartella Desktop conservata.
 - Destinazione scelta per il sito pubblico: one.com, già utilizzato dall’utente. BOOK resta separato sulla propria VPS.
-- Confermare dominio canonico (.dk, con o senza www), accesso al piano one.com e strumenti disponibili per pubblicazione, HTTPS e redirect prima di progettare il rilascio. L’eventuale servizio per ordini/pagamenti sarà deciso separatamente.
+- Dominio canonico confermato dall'utente: `https://trattoriasantarita.dk` senza `www`. Accesso al piano one.com e strumenti disponibili per pubblicazione, HTTPS e redirect restano da verificare prima del rilascio. L’eventuale servizio per ordini/pagamenti sarà deciso separatamente.
 
-**Fatto quando:** backup locale presente e verificato; copia indipendente, repository privata e primo commit disponibili; destinazione one.com registrata e capacità/configurazione dell’hosting verificate. Copia, backup e repository sono già verificati; hosting e dominio canonico restano da verificare.
+**Fatto quando:** backup locale presente e verificato; copia indipendente, repository privata e primo commit disponibili; destinazione one.com registrata e capacità/configurazione dell’hosting verificate. Copia, backup, repository e dominio canonico sono verificati/confermati; capacità e configurazione dell'hosting restano da verificare.
 
 ## WEB-002 — prenotazione e immagini
 
@@ -38,6 +38,8 @@ Stato: implementata e verificata in locale; dettagli e limiti in [VERIFICA-WEB-0
 
 ## WEB-004 — reperibilità, condivisione e aggiornamento dati
 
+Stato: implementazione tecnica locale in [VERIFICA-WEB-004.md](VERIFICA-WEB-004.md). Restano confronto degli orari con BOOK protetto e conferma del ristorante, verifica dell'hosting/redirect e anteprima di condivisione pubblica. Nessun rilascio eseguito.
+
 - Fonte autorevole degli orari: configurazione BOOK in `/impostazioni`. Il responsabile del ristorante conferma gli orari; l’utente incaricato della gestione del sito li riporta e verifica.
 - Quando cambiano: aggiornare prima BOOK, poi orari visibili e dati strutturati del sito; il gestore del profilo Google aggiorna anche gli orari Google Business Profile. Nessuna sincronizzazione automatica va presunta. Annotare responsabile, data e confronto effettuato; accesso a BOOK/VPS solo nel perimetro autorizzato.
 - Dati strutturati Restaurant con indirizzo, telefono, orari confermati, menu e prenotazione. Non promettono un migliore posizionamento su Maps.
@@ -47,6 +49,8 @@ Stato: implementata e verificata in locale; dettagli e limiti in [VERIFICA-WEB-0
 **Fatto quando:** responsabili degli aggiornamenti identificati; orari confrontati con BOOK e confermati dal ristorante; metadati, link canonici e dati strutturati validati; anteprima di condivisione verificata; sitemap/robots/404 e mappa redirect controllati sul tipo di hosting effettivo.
 
 ## WEB-005 — shop e verifica responsive estesa
+
+Prodotti e ordini reali rinviati dall'utente a una fase successiva; le pagine shop restano anteprime non indicizzabili.
 
 - Inserire prodotti, prezzi e disponibilità forniti dall’utente; definire costi di confezione, consegna e regole dei buoni.
 - Ordini e pagamenti reali richiedono un servizio server, verifiche e configurazioni dedicate; HTTPS da solo non li attiva.
