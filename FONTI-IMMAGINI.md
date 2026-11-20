@@ -7,3 +7,5 @@
 - Foto facciata e vista di Fugholm: immagini fornite dall’utente, provenienti da https://nordicals.dk/ejendomme/8700/fugholm/n501766/116488 — verificare con il titolare i diritti prima della pubblicazione.
 
 - Foto illustrative dei cesti: Sarah Chai / Pexels (7262795), Kristina Chuprina / Pexels (16897958), Rachel Claire / Pexels (4846237); fonti: https://www.pexels.com/photo/wicker-basket-with-assorted-food-7262795/, https://www.pexels.com/photo/a-basket-with-food-packed-as-gifts-16897958/, https://www.pexels.com/photo/wicker-basket-with-food-and-wine-4846237/. Copie WebP locali in immagini/; diritti di riutilizzo da confermare prima della pubblicazione.
+
+- Foto illustrativa prodotti italiani (pasta, olio e conserva): Gianpiero Ferraro / Pexels, https://www.pexels.com/photo/a-bottle-of-olive-oil-and-uncooked-pasta-on-a-tablecloth-10608692/ . File locale ottimizzato: immagini/cesto-italiano-pasta-olio.webp. Non rappresenta un cesto effettivamente in vendita.
