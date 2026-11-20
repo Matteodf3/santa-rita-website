@@ -167,8 +167,8 @@
 .visit-panel .sr-visit-real-photo{align-self:center;justify-self:center;width:calc(100% - 60px);height:380px;max-width:390px;min-height:0;border:7px solid #fffdf8;box-shadow:0 0 0 1px #ddcfc1,0 12px 28px #35231912}.visit-panel .sr-visit-real-photo img{width:100%;height:100%;object-fit:cover;object-position:center 39%}@media(max-width:850px){.visit-panel .sr-visit-real-photo{width:calc(100% - 50px);height:260px;max-width:none;margin:0 25px 25px}}@media(max-width:560px){.visit-panel .sr-visit-real-photo{width:calc(100% - 40px);height:220px;margin:0 20px 20px}}
 
 .intro-right.sr-real-photo-frame .sr-real-photo{object-position:center 57%}.visit-panel .sr-visit-real-photo img{object-position:48% center}
-.visit-contact{display:flex;flex-wrap:wrap;gap:10px 24px;margin:-8px 0 0;color:#80332d;font:13px/1.6 var(--sans)}.visit-contact a{text-decoration:none;overflow-wrap:anywhere}.visit-contact a:hover{text-decoration:underline;text-underline-offset:3px}.visit-contact a span{display:inline-block;margin-right:4px;color:#a87865}@media(max-width:560px){.visit-contact{flex-direction:column;gap:7px;font-size:13px}}</style>
-<script src="lingua.js"></script>
+.visit-contact{display:flex;flex-wrap:wrap;gap:10px 24px;margin:-8px 0 0;color:#80332d;font:13px/1.6 var(--sans)}.visit-contact a{text-decoration:none;overflow-wrap:anywhere}.visit-contact a:hover{text-decoration:underline;text-underline-offset:3px}.visit-contact a span{display:inline-block;margin-right:4px;color:#a87865}@media(max-width:560px){.visit-contact{flex-direction:column;gap:7px;font-size:13px}}select[data-language-select]{border:1px solid #d7c5b4;border-radius:3px;background:#fffdf8;color:#802c2b;padding:8px 5px;font:700 11px Arial;cursor:pointer;max-width:100%;min-height:36px}select[data-language-select]:focus-visible{outline:3px solid #b86c37;outline-offset:3px}@media(max-width:850px){.nav select[data-language-select],.nav-links select[data-language-select]{margin:9px 0;min-height:44px;width:100%;text-align:left}}</style><link rel="stylesheet" href="lingua.css">
+<script src="lingua.js"></script><script src="inglese.js"></script>
 </head>
 <body>
 
@@ -176,9 +176,9 @@
 <div class="header-inner">
 <a aria-label="Trattoria Santa Rita — home" class="wordmark" href="#home">
 <span class="wordmark-top">Trattoria Santa Rita</span>
-<span class="wordmark-bottom">Italiensk Restaurant <span aria-hidden="true">·</span> Horsens</span>
+<span class="wordmark-bottom" data-site-text="restaurantSubtitle">Italiensk Restaurant · Horsens</span>
 </a>
-<nav aria-label="Navigation" class="nav-links" id="navLinks"><a data-i18n="navHome" href="#home">Home</a><a data-i18n="navMenu" href="menu.html">Menukort</a><a data-i18n="navAbout" href="#about">Om os</a><a data-i18n="navContact" href="#contact">Kontakt</a><a data-i18n="navShop" href="shop.html">Shop</a><button aria-label="Switch language" class="lang-switch" id="langSwitch" type="button">DA <span aria-hidden="true">/</span> IT</button><a class="nav-book" data-i18n="book" data-booking-link href="https://book.trattoriasantarita.dk/book?lang=da">Book bord</a></nav>
+<nav aria-label="Navigation" class="nav-links" id="navLinks"><a data-i18n="navHome" href="#home">Home</a><a data-i18n="navMenu" href="menu.html">Menukort</a><a data-i18n="navAbout" href="#about">Om os</a><a data-i18n="navContact" href="#contact">Kontakt</a><a data-i18n="navShop" href="shop.html">Shop</a><span class="sr-language-picker"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 7h14M5 17h14"/></svg><select class="lang-switch" id="langSwitch" data-language-select aria-label="Website language"><option value="da">Dansk</option><option value="it">Italiano</option><option value="en">English</option></select></span><a class="nav-book" data-i18n="book" data-booking-link href="https://book.trattoriasantarita.dk/book?lang=da">Book bord</a></nav>
 <div class="header-end">
 <img alt="Logo originale Trattoria Santa Rita" class="brand-logo" src="immagini/6af07bca32dea63d-256.webp" width="700" height="467" srcset="immagini/6af07bca32dea63d-128.webp 128w, immagini/6af07bca32dea63d-256.webp 256w" sizes="108px"/>
 <button aria-controls="navLinks" aria-expanded="false" aria-label="Åbn menu" class="menu-toggle" id="menuToggle" type="button"><span></span><span></span><span></span></button>
@@ -241,7 +241,7 @@
 <p class="section-kicker" data-i18n="contactKicker">KIG FORBI</p>
 <h2 data-i18n="contactTitle" id="visitTitle">Vi ses ved bordet.</h2>
 <p class="body-text" data-i18n="contactDesc">Find Trattoria Santa Rita i Horsens centrum. Vi glæder os til at byde dig velkommen.</p>
-<p class="address"><strong>Trattoria Santa Rita</strong><br>Fugholm 12<br/>8700 Horsens, Danmark</br></p>
+<p class="address"><strong>Trattoria Santa Rita</strong><br>Fugholm 12<br/>8700 Horsens, <span data-site-text="country">Danmark</span></br></p>
 <div class="visit-contact"><a href="tel:+4550178022"><span aria-hidden="true">☎</span> +45 50 17 80 22</a><a href="mailto:mail@trattoriasantarita.dk"><span aria-hidden="true">✉</span> mail@trattoriasantarita.dk</a></div>
 <section class="visit-hours" aria-labelledby="visitHoursTitle"><h3 id="visitHoursTitle" data-i18n="hoursTitle">Åbningstider</h3><dl><div><dt data-i18n="hoursSunMon">Søndag – mandag</dt><dd data-i18n="hoursClosed">Lukket</dd></div><div><dt data-i18n="hoursTueThu">Tirsdag – torsdag</dt><dd>16:00 – 21:00</dd></div><div><dt data-i18n="hoursFriday">Fredag</dt><dd>16:00 – 22:00</dd></div><div><dt data-i18n="hoursSaturday">Lørdag</dt><dd>12:00 – 22:00</dd></div></dl></section>
 <div class="visit-actions"><a class="btn btn-primary" data-i18n="book" data-booking-link href="https://book.trattoriasantarita.dk/book?lang=da">Book bord</a><a class="btn btn-outline" data-i18n="directions" href="https://www.google.com/maps/search/?api=1&amp;query=Trattoria+Santa+Rita+Fugholm+12+Horsens" rel="noopener" target="_blank">Find vej</a></div>
@@ -281,11 +281,12 @@ Object.assign(strings.it,{
  shopHeroKicker:'TRATTORIA SANTA RITA · SHOP',shopHeroTitle:'Un po’ d’Italia, <em>anche a casa.</em>',shopHeroDesc:'Stiamo valutando buoni regalo e alcune specialità italiane. Questa pagina mostra come potrebbe essere il futuro negozio.',shopProductsKicker:'DAL NOSTRO PICCOLO SHOP',shopProductsTitle:'Tre idee per lo shop.',shopProductsIntro:'Categorie dimostrative, non prodotti disponibili.',shopGift:'Buoni regalo',shopGiftDesc:'Una serata a Santa Rita da regalare ad amici o familiari.',shopDelicacies:'Specialità italiane',shopDelicaciesDesc:'Una selezione di sapori italiani, qualora il ristorante decidesse di venderli.',shopExtras:'Preferiti Santa Rita',shopExtrasDesc:'Piccoli accessori per la cucina oppure specialità stagionali del ristorante.',shopSoon:'Non ancora in vendita',shopNotice:'Attenzione: questa è solo un’anteprima. Prodotti, fotografie e categorie sono esempi. Non è possibile acquistare o pagare.',shopQuestions:'Hai domande?',shopQuestionsDesc:'Contatta direttamente il ristorante. Lo shop potrà essere attivato solo dopo aver definito prodotti e condizioni.',shopContact:'Contatta il ristorante',shopPhotoCaption:'Foto illustrative da Unsplash: non ritraggono prodotti di Santa Rita.',
 });
 
+strings.en=SantaEnglish.main;
 let lang=SantaLanguage.get();
 const nav=document.getElementById('navLinks'),toggle=document.getElementById('menuToggle'),switcher=document.getElementById('langSwitch');
-function localize(l){lang=SantaLanguage.set(l);document.documentElement.lang=l;document.querySelectorAll('[data-i18n]').forEach(e=>{const value=strings[l][e.dataset.i18n];if(value!==undefined)e.innerHTML=value});switcher.innerHTML=l==='da'?'DA <span aria-hidden="true">/</span> IT':'IT <span aria-hidden="true">/</span> DA';toggle.setAttribute('aria-label',strings[l].openMenu)}
+function localize(l){lang=SantaLanguage.set(l);document.documentElement.lang=l;document.querySelectorAll('[data-i18n]').forEach(e=>{const value=strings[l][e.dataset.i18n];if(value!==undefined)e.innerHTML=value});switcher.value=l;toggle.setAttribute('aria-label',strings[l].openMenu)}
 function closeMenu(){nav.classList.remove('open');toggle.setAttribute('aria-expanded','false')}
-toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open))});document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',closeMenu));switcher.addEventListener('click',()=>{localize(lang==='da'?'it':'da');closeMenu()});
+toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open))});document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',closeMenu));switcher.addEventListener('change',()=>{localize(SantaLanguage.choose(switcher.value));closeMenu()});
 document.getElementById('year').textContent=new Date().getFullYear();
 if('IntersectionObserver' in window){const io=new IntersectionObserver(entries=>{for(const entry of entries){if(entry.isIntersecting){entry.target.classList.add('visible');io.unobserve(entry.target)}}},{threshold:.13});document.querySelectorAll('.reveal').forEach(e=>io.observe(e))}else document.querySelectorAll('.reveal').forEach(e=>e.classList.add('visible'));
 

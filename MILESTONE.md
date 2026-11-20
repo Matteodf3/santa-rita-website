@@ -28,6 +28,8 @@ Stato: implementata nella copia di sviluppo, da verificare su BOOK autenticato. 
 
 ## WEB-003 — tre lingue
 
+Stato: implementata e verificata in locale; dettagli e limiti in [VERIFICA-WEB-003.md](VERIFICA-WEB-003.md). Verifica remota BOOK rinviata fino alla sua apertura pubblica.
+
 - Danese predefinito, italiano e inglese su tutte le pagine.
 - Preferenza conservata fra pagine, compresi carrello e shop; tradurre testi, descrizioni, pulsanti, errori ed etichette accessibili.
 - La stessa preferenza genera `lang=da`, `lang=it` o `lang=en` nei collegamenti BOOK; non basta tradurre il testo del pulsante.
