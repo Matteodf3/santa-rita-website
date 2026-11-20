@@ -1,0 +1,10 @@
+/* Selettore lingua condiviso: controllo nativo per tastiera e dispositivi mobili. */
+.sr-language-picker{position:relative;display:inline-flex;align-items:center;flex:none;color:#802c2b;isolation:isolate}
+.sr-language-picker>svg{position:absolute;left:12px;width:15px;height:15px;pointer-events:none;z-index:1;opacity:.8}
+.sr-language-picker:after{content:'';position:absolute;right:12px;top:calc(50% - 4px);width:6px;height:6px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);pointer-events:none}
+.sr-language-picker select[data-language-select]{appearance:none;-webkit-appearance:none;border:1px solid #d9c8b9!important;border-radius:999px!important;background:linear-gradient(180deg,#fffefb,#f4ece2)!important;color:#71372e!important;min-height:40px!important;width:116px!important;max-width:100%;margin:0!important;padding:10px 29px 10px 34px!important;font:600 11px/1.2 Arial,sans-serif!important;letter-spacing:.15px;cursor:pointer;box-shadow:0 2px 5px #52302507;transition:border-color .18s,box-shadow .18s,background .18s}
+.sr-language-picker:hover select[data-language-select]{border-color:#a77868!important;box-shadow:0 3px 10px #52302512}
+.sr-language-picker select[data-language-select]:focus-visible{outline:2px solid #a76f52!important;outline-offset:3px;box-shadow:0 0 0 4px #a76f5212}
+.sr-language-picker select option{background:#fffdf8;color:#3b2d27}
+@media(max-width:850px){.nav .sr-language-picker,.nav-links .sr-language-picker{width:100%;margin:12px 0}.sr-language-picker select[data-language-select]{width:100%!important;min-height:46px!important;padding-left:39px!important;font-size:13px!important}.sr-language-picker>svg{left:15px;width:17px;height:17px}.sr-language-picker:after{right:17px}}
+@media(prefers-reduced-motion:reduce){.sr-language-picker select[data-language-select]{transition:none}}
